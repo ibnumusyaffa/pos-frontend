@@ -9,10 +9,10 @@ function Product(props) {
     >
       <div className="w-full bg-gray-600 h-32 flex justify-center items-center">
         <div className="font-bold text-3xl text-white">
-          {props.data.nama.substring(0, 2)}
+          {props.data.name.substring(0, 2)}
         </div>
       </div>
-      <div className="p-4">{props.data.nama}</div>
+      <div className="p-4">{props.data.name}</div>
     </div>
   );
 }
